@@ -17,6 +17,7 @@ header li{
     padding-top: 36px;
 }
 
+
 .chamonatvali{
     margin-left: 300px;
 }
@@ -30,6 +31,27 @@ header li{
 header a{
     color: #FFFFFF;
     font-size: 18px;
+    position: relative;
+    padding: 15px;
+}
+
+.xazi:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.xazi:before{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 2s;
+}
+
+header li a:hover:before{
+    width: 100%;
 }
 
 .social{
@@ -47,10 +69,23 @@ header a{
     background-size: 100%;
 }
 
+.fb:hover{
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/facebook2.png);
+}
+
 .ig{
     width: 100%;
     height: 50px;
     background-image: url(../img/instagram.png);
+    background-size: 100%;
+}
+
+.ig:hover{
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/instagram2.png);
     background-size: 100%;
 }
 
@@ -91,6 +126,10 @@ header a{
     z-index: 3;
     display: block;
     background-size: 100%;
+}
+
+.guli:hover{
+    background-image: url(../img/like2.png);
 }
 
 .talga{
@@ -181,6 +220,16 @@ a{
     margin-top: 51px;
     margin-left: 109px;
 }
+
+.n1:hover{
+    width: 345px;
+    height: 400px;
+    box-shadow: 0 0 45px #b4b4b4;
+    padding-left: 29px;
+    padding-top: 18px;
+    background-color: #b4b4b4;
+}
+
 
 .pl1{
     font-size: 24px;
